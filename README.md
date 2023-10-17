@@ -3,7 +3,7 @@
 #### Description:
 
 > [!NOTE]
-> Additional Module Requirement in python
+> Additional Module Requirement in Python
 * BeautifulSoup
 * selenium
 * sentence_transformers

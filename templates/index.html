@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+
+    <h1>This is <span id="name">KAI-I</span> research experience</h1>
+    <img src="/static/S__21307413.jpg" alt="image" width=800>
+    <p></p>
+    <h3 class="about">Major in machine learning & atmospheric science</h3>
+
+    <ul calss="topic_name">
+        <li class="topic">
+            <a class="nav-link" href="/CloudSeeding">
+                Cloud Seeding research
+            </a>
+        </li>
+        <li class="topic">
+            <a class="nav-link" href="/TerrainPrecipitation">
+                Terrain caused precipitation
+            </a>
+        </li>
+        <li class="topic">
+            <a class="nav-link" href="/AI_Application">
+                AI application on weather prediction
+            </a>
+        </li>
+    </ul>
+
+    <h4 class="about">Tools are used</h4>
+    <table cellpadding="12" class="table table-sm">
+        <tr>
+            <th id="topic">Topic</th>
+            <th id="tool">Tools</th>
+        </tr>
+        <tr>
+            <td>Cloud seeding research</td>
+            <td>In-situ Observation & Model simulation</td>
+        </tr>
+        <tr>
+            <td>Terrain caused precipitation</td>
+            <td>Radar Observation & WISSDOM</td>
+        </tr>
+        <tr>
+            <td>AI application on weather prediction</td>
+            <td>DNN & WGAN-GP</td>
+        </tr>
+    </table>
+<script src="/static/script.js"></script>
+{% endblock %}

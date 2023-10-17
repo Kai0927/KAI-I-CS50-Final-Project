@@ -1,0 +1,60 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+
+nav .navbar-brand .black
+{
+    color: black;
+}
+
+#name {
+    font-family: monospace;
+    font-size: 60px;
+    text-emphasis: underline;
+    color: #537fbe;
+}
+
+.about {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    color: #5967ff;
+}
+
+td {
+    font-size: 20px;
+    color: #808080;
+}
+
+#topic {
+    font-size: 22px;
+    color: #5967ff;
+}
+
+#tool {
+    font-size: 22px;
+    color: #5967ff;
+}
+
+.topic {
+    font-size: 22px;
+}
+
+.nav-link {
+    color: black;
+}
+
+#figure {
+    font-size: 22px;
+    color: #5967ff;
+}

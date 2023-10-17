@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <h1 style="text-align: center;">Question</h1>
+    <p></p>
+    <div  style="text-align: center;">
+        <img src="/static/chatbot (2).png" alt="image" width=300>
+    </div>
+    <p></p>
+    <form action="/Glossary_Query" method="post">
+        <div class="mb-3" style="text-align: center;">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="question" placeholder="Question" type="text">
+            <p></p>
+            <button style="text-align: center;" class="btn btn-primary" type="submit">Ask</button>
+        </div>
+    </form>
+{% endblock %}

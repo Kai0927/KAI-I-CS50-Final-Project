@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <h1 style="color: black">{{ question }}</h1>
+    <p></p>
+    <p></p>
+    <h2 style="color: #537fbe">Answer</h2>
+    <p></p>
+    <P></P>
+    <h4 style="color: crimson;">DataBase:</h4>
+    {% for row in answer_database %}
+    <h5>
+        <li>{{ row["answer"] }}</li>
+    </h5>
+    {% endfor %}
+    <p></p>
+    <p></p>
+    <h4 style="color: crimson;">AI:</h4>
+    <h5>
+        <li>{{ answer_ai }}</li>
+    </h5>
+    <P></P>
+{% endblock %}

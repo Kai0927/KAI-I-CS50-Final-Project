@@ -9,6 +9,7 @@
 * sentence_transformers
 * sklearn
 * flask
+* cs50
 
 > [!NOTE]
 > Main coding languages are used
